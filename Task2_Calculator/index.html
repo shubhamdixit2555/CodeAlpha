@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project | Calculator | CodeAlpha</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Opan+Sans">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <h1> Calculator </h1>
+    </header>
+    </main>
+    <main>
+        <div class="calculator">
+            <div class="display" id="display">Calculations shows here...</div>
+            <hr>
+            <div class="buttons">
+                <table>
+                    <tr>
+                        <td><button class="button" data-value="7" id="7"><i class="fa-solid fa-7"></i></button></td>
+                        <td><button class="button" data-value="8" id="8"><i class="fa-solid fa-8"></i></button></td>
+                        <td><button class="button" data-value="9" id="9"><i class="fa-solid fa-9"></i></button></td>
+                        <td><button class="button f-width clear" data-value="C" id="C"><i class="fa-solid fa-c" style="font-size: 22px;"></i></button></td>
+                        <td><button class="button f-width clear back" data-value="X" id="X"><i class="fa-solid fa-delete-left" style="font-size: 22px;"></i></button></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><button class="button" data-value="4" id="4"><i class="fa-solid fa-4"></i></button></td>
+                        <td><button class="button" data-value="5" id="5"><i class="fa-solid fa-5"></i></button></td>
+                        <td><button class="button" data-value="6" id="6"><i class="fa-solid fa-6"></i></button></td>
+                        <td><button class="button" data-value="/" id="/"><i class="fa-solid fa-divide"></i></button></td>
+                        <td><button class="button" data-value="*" id="*"><i class="fa-solid fa-xmark"></i></button></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><button class="button" data-value="1" id="1"><i class="fa-solid fa-1"></i></button></td>
+                        <td><button class="button" data-value="2" id="2"><i class="fa-solid fa-2"></i></button></td>
+                        <td><button class="button" data-value="3" id="3"><i class="fa-solid fa-3"></i></button></td>
+                        <td><button class="button" data-value="-" id="-"><i class="fa-solid fa-minus"></i></button></td>
+                        <td><button class="button" data-value="+" id="+"><i class="fa-solid fa-plus"></i></button></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><button class="button" data-value="." id="."><i class="fa-solid fa-circle" style="font-size: 6px;"></i></button></td>
+                        <td><button class="button" data-value="0" id="0"><i class="fa-solid fa-0"></i></button></td>
+                        <td><button class="button" data-value="%" id="%"><i class="fa-solid fa-percent"></i></button></td>
+                        <td colspan="2"><button class="button f-width equals" data-value="=" id="="><i class="fa-solid fa-equals" style="font-size: 22px;"></i></button></td>                        
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 | Calculator Project | CodeAlpha | All rights reserved.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/ee7a178a15.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
