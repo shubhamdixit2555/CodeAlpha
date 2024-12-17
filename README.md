@@ -34,7 +34,7 @@ Below is the list of tasks completed during the internship. Each task includes p
 - **CSS3**  
 - **JavaScript (ES6)**  
 - **React.js**  
-- **Tailwind CSS** *(if applicable)*  
+- **Tailwind CSS** 
 - **Other Tools**: VS Code, Git, GitHub  
 
 ---
